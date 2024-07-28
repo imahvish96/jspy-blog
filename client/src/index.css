@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body .w-md-editor-text-pre > code,
+body .w-md-editor-text-input {
+  font-size: 20px !important;
+  line-height: 24px !important;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0 !important;
+}
